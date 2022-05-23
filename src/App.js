@@ -1,8 +1,11 @@
 import React from "react";
+import { AddTask } from "./components/AddTask";
+import TaskApp from "./components/TaskApp";
 
 function App() {
-  return <div>hello
-    
+  return <div>
+    <TaskApp />
+
   </div>;
 }
 
